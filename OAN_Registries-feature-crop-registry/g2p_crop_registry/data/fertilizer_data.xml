@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <!-- ── Organic Fertilizers ───────────────────────────── -->
+        <record id="fertilizer_fym" model="g2p.fertilizer">
+            <field name="name">Farmyard Manure (FYM)</field>
+            <field name="code">farmyard_manure_fym</field>
+            <field name="category">organic</field>
+        </record>
+        <record id="fertilizer_compost" model="g2p.fertilizer">
+            <field name="name">Compost</field>
+            <field name="code">compost</field>
+            <field name="category">organic</field>
+        </record>
+        <record id="fertilizer_vermicompost" model="g2p.fertilizer">
+            <field name="name">Vermicompost</field>
+            <field name="code">vermicompost</field>
+            <field name="category">organic</field>
+        </record>
+        <record id="fertilizer_green_manure" model="g2p.fertilizer">
+            <field name="name">Green Manure</field>
+            <field name="code">green_manure</field>
+            <field name="category">organic</field>
+        </record>
+        <record id="fertilizer_neem_cake" model="g2p.fertilizer">
+            <field name="name">Neem Cake</field>
+            <field name="code">neem_cake</field>
+            <field name="category">organic</field>
+        </record>
+
+        <!-- ── Nitrogen Fertilizers ──────────────────────────── -->
+        <record id="fertilizer_urea" model="g2p.fertilizer">
+            <field name="name">Urea</field>
+            <field name="code">urea</field>
+            <field name="category">nitrogen</field>
+        </record>
+        <record id="fertilizer_ammonium_sulphate" model="g2p.fertilizer">
+            <field name="name">Ammonium Sulphate</field>
+            <field name="code">ammonium_sulphate</field>
+            <field name="category">nitrogen</field>
+        </record>
+        <record id="fertilizer_can" model="g2p.fertilizer">
+            <field name="name">Calcium Ammonium Nitrate (CAN)</field>
+            <field name="code">calcium_ammonium_nitrate_can</field>
+            <field name="category">nitrogen</field>
+        </record>
+
+        <!-- ── Phosphorus Fertilizers ────────────────────────── -->
+        <record id="fertilizer_dap" model="g2p.fertilizer">
+            <field name="name">Di-Ammonium Phosphate (DAP)</field>
+            <field name="code">di_ammonium_phosphate_dap</field>
+            <field name="category">phosphorus</field>
+        </record>
+        <record id="fertilizer_ssp" model="g2p.fertilizer">
+            <field name="name">Single Super Phosphate (SSP)</field>
+            <field name="code">single_super_phosphate_ssp</field>
+            <field name="category">phosphorus</field>
+        </record>
+        <record id="fertilizer_tsp" model="g2p.fertilizer">
+            <field name="name">Triple Super Phosphate (TSP)</field>
+            <field name="code">triple_super_phosphate_tsp</field>
+            <field name="category">phosphorus</field>
+        </record>
+
+        <!-- ── Potassium Fertilizers ─────────────────────────── -->
+        <record id="fertilizer_mop" model="g2p.fertilizer">
+            <field name="name">Muriate of Potash (MOP)</field>
+            <field name="code">muriate_of_potash_mop</field>
+            <field name="category">potassium</field>
+        </record>
+        <record id="fertilizer_sop" model="g2p.fertilizer">
+            <field name="name">Sulphate of Potash (SOP)</field>
+            <field name="code">sulphate_of_potash_sop</field>
+            <field name="category">potassium</field>
+        </record>
+
+        <!-- ── NPK / Complex Fertilizers ────────────────────── -->
+        <record id="fertilizer_npk_10_26_26" model="g2p.fertilizer">
+            <field name="name">NPK 10-26-26</field>
+            <field name="code">npk_10_26_26</field>
+            <field name="category">npk</field>
+        </record>
+        <record id="fertilizer_npk_17_17_17" model="g2p.fertilizer">
+            <field name="name">NPK 17-17-17</field>
+            <field name="code">npk_17_17_17</field>
+            <field name="category">npk</field>
+        </record>
+        <record id="fertilizer_npk_20_20_0" model="g2p.fertilizer">
+            <field name="name">NPK 20-20-0</field>
+            <field name="code">npk_20_20_0</field>
+            <field name="category">npk</field>
+        </record>
+
+        <!-- ── Micronutrient Fertilizers ─────────────────────── -->
+        <record id="fertilizer_zinc_sulphate" model="g2p.fertilizer">
+            <field name="name">Zinc Sulphate</field>
+            <field name="code">zinc_sulphate</field>
+            <field name="category">micronutrient</field>
+        </record>
+        <record id="fertilizer_boron" model="g2p.fertilizer">
+            <field name="name">Boron</field>
+            <field name="code">boron</field>
+            <field name="category">micronutrient</field>
+        </record>
+        <record id="fertilizer_iron_fe" model="g2p.fertilizer">
+            <field name="name">Iron (Fe)</field>
+            <field name="code">iron_fe</field>
+            <field name="category">micronutrient</field>
+        </record>
+        <record id="fertilizer_micronutrient_mix" model="g2p.fertilizer">
+            <field name="name">Micronutrient Mixtures</field>
+            <field name="code">micronutrient_mixtures</field>
+            <field name="category">micronutrient</field>
+        </record>
+
+    </data>
+</odoo>
